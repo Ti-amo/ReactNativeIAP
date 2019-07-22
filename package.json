@@ -1,0 +1,34 @@
+{
+  "name": "Game",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.1.1",
+    "jetifier": "^1.6.2",
+    "react": "16.8.6",
+    "react-native": "0.60.3",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-iap": "^3.2.4",
+    "react-native-modal": "^11.1.0",
+    "react-native-modalbox": "^1.7.1",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.4",
+    "@babel/runtime": "7.5.4",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.8.0",
+    "eslint": "6.0.1",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
